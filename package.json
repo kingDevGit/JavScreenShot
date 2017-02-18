@@ -1,0 +1,26 @@
+{
+  "name": "JAV_Screenshots",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">= 0.6.0",
+    "npm": ">= 1.0.0"
+  },
+  "dependencies": {
+    "asyn": "0.0.1",
+    "body-parser": "^1.16.1",
+    "cheerio": "^0.22.0",
+    "express": "~4.14.0",
+    "firebase": "^3.4.1",
+    "firebase-admin": "^4.0.4",
+    "he": "^1.1.1",
+    "randomstring": "~1.1.5",
+    "request": "^2.79.0"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "main": "app.js",
+  "devDependencies": {
+    "gulp-minify": "0.0.13"
+  }
+}
